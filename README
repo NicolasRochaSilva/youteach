@@ -5,3 +5,9 @@ mklink /D "C:\wamp64\www\youteach" "C:\github\youteach"
 para iniciar o projeto
 
 na pasta C:\wamp64\www\youteach executar o comando php -S localhost:8000 -t public
+
+composer create-project symfony/skeleton nome-do-projeto
+
+composer require symfony/framework-bundle
+
+composer require symfony/framework-bundle symfony/http-kernel symfony/http-foundation symfony/routing symfony/dependency-injection symfony/config symfony/dotenv symfony/console
