@@ -1,0 +1,7 @@
+para criar um atalho:
+
+mklink /D "C:\wamp64\www\youteach" "C:\github\youteach"
+
+para iniciar o projeto
+
+na pasta C:\wamp64\www\youteach executar o comando php -S localhost:8000 -t public
